@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Language library</string>
+    <string name="translation">translation</string>
+    <string name="word">Word</string>
+    <string name="delete_all">Delete all</string>
+    <string name="add">Add</string>
+    <string name="choose_category">Choose category</string>
+    <string name="translate">Translate</string>
+    <string name="exit">Exit</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="categoryone">CategoryOne</string>
+    <string name="categorytwo">CategoryTwo</string>
+    <string name="categorythree">CategoryThree</string>
+    <string name="categoryfour">CategoryFour</string>
+    <string name="categoryfive">CategoryFive</string>
+    <string name="change">Change</string>
+    <string-array name="category_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

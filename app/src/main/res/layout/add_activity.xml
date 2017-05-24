@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add">
+
+    <TextView
+        android:background="@color/colorBlackLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/word"
+        android:textSize="25sp"
+        android:textColor="@color/White"
+        />
+    <EditText
+        android:background="@color/White"
+        android:id="@+id/edit_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/word"
+        android:textColor="@color/colorBlack"
+        />
+    <TextView
+        android:background="@color/colorBlackLight"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/translate"
+        android:textSize="25sp"
+        android:textColor="@color/White"
+        />
+    <EditText
+        android:background="@color/White"
+        android:id="@+id/edit_text_id2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/translation"
+        android:textColor="@color/colorBlack"
+        />
+    <TextView
+        android:background="@color/colorBlackLight"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textColor="@color/White"
+        android:text="@string/choose_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:layout_marginTop="200dp"
+        android:textSize="32sp"
+        android:textColor="@color/White"
+        android:background="@color/colorBlack"
+        android:text="@string/add"
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
